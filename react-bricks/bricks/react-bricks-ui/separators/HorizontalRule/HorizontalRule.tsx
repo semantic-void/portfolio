@@ -26,7 +26,7 @@ const HorizontalRule: types.Brick<HorizontalRuleProps> = ({
         paddingTop={paddingTop}
         paddingBottom={paddingBottom}
       >
-        <hr className="border-black/10" />
+        <hr className="border-white/20" />
       </Container>
     </Section>
   )

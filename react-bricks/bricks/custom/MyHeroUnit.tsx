@@ -1,4 +1,5 @@
 import { Image, RichText, Text, types } from 'react-bricks/frontend'
+import SkillsSection from "./SkillsSection";
 
 //=============================
 // Local Types
@@ -21,6 +22,7 @@ const MyHeroUnit: types.Brick<HeroUnitProps> = ({ padding }) => {
         padding === 'big' ? 'py-20' : 'py-12'
       }`}
     >
+     <SkillsSection/>
       <div>
         <Image
           propName="icon"
@@ -58,9 +60,11 @@ const MyHeroUnit: types.Brick<HeroUnitProps> = ({ padding }) => {
               {props.children}
             </code>
           )}
+         
         />
       </div>
     </div>
+    
   )
 }
 

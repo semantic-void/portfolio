@@ -29,7 +29,7 @@ import HeroUnit from './heroSections/HeroUnit/HeroUnit'
 import HeroUnit2 from './heroSections/HeroUnit2/HeroUnit2'
 import ImageCarousel from './heroSections/ImageCarousel/ImageCarousel'
 import ImageCarouselItem from './heroSections/ImageCarousel/ImageCarouselItem'
-
+import MyHeroUnit from '../custom/MyHeroUnit';
 // CALL TO ACTION
 import CallToAction from './cta/CallToAction/CallToAction'
 import NewsletterHero from './cta/NewsletterHero/NewsletterHero'
@@ -202,6 +202,7 @@ const allBricks: types.Theme = {
         Footer,
         FooterColumn,
         FooterLink,
+        MyHeroUnit,
       ],
     },
     {

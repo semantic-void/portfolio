@@ -1,5 +1,5 @@
 import { types } from 'react-bricks/frontend'
-
+import SkillsSection from "./custom/SkillsSection";
 import HeroUnit from './custom/MyHeroUnit'
 import reactBricksUITheme from './react-bricks-ui'
 

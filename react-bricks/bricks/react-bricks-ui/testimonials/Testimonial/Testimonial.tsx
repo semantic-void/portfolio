@@ -83,7 +83,7 @@ const Testimonial: types.Brick<TestimonialProps> = ({
             propName="logoImage"
             imageClassName="w-20 h-10 object-contain object-left"
             renderWrapper={({ children }) => (
-              <div className="ml-5 pl-5 border-l border-gray-300">{children}</div>
+              <div className="ml-5 pl-5 border-l border-zinc-300">{children}</div>
             )}
           />
         </cite>
