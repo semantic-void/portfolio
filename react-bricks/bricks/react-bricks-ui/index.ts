@@ -1,9 +1,9 @@
 import { types } from 'react-bricks/frontend'
 
 // LAYOUT
-// import Header from './layout/Header'
-// import HeaderMenuItem from './layout/HeaderMenuItem'
-// import HeaderMenuSubItem from './layout/HeaderMenuSubItem'
+import Header from './layout/Header'
+import HeaderMenuItem from './layout/HeaderMenuItem'
+import HeaderMenuSubItem from './layout/HeaderMenuSubItem'
 // import Footer from './layout/Footer'
 // import FooterColumn from './layout/FooterColumn'
 // import FooterLink from './layout/FooterLink'
@@ -196,9 +196,9 @@ const allBricks: types.Theme = {
     {
       categoryName: 'Layout',
       bricks: [
-        // Header,
-        // HeaderMenuItem,
-        // HeaderMenuSubItem,
+        Header,
+        HeaderMenuItem,
+        HeaderMenuSubItem,
         // // Footer,
         // // FooterColumn,
         // FooterLink,
@@ -214,11 +214,11 @@ const allBricks: types.Theme = {
 
 // Single bricks
 export {
-  // Header,
-  // HeaderMenuItem,
-  // HeaderMenuSubItem,
-  // // Footer,
-  // // FooterColumn,
+  Header,
+  HeaderMenuItem,
+  HeaderMenuSubItem,
+  // Footer,
+  // FooterColumn,
   // FooterLink,
   Badge,
   Button,

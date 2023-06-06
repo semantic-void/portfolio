@@ -26,7 +26,7 @@ const Header: types.Brick<HeaderProps> = ({
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const { isDarkColorMode, toggleColorMode } = useReactBricksContext()
-  const [mounted, setMounted] = useState(false)
+  const [mounted, setMounted] = useState(true)
 
   useEffect(() => {
     setMounted(true)
